@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'viewflow.frontend',
     'demo.helloworld',
     'demo.amb',
+    'demo.test',
 )
 
 MIDDLEWARE_CLASSES = (
