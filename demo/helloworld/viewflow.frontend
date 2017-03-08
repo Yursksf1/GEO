@@ -1,4 +1,0 @@
-from viewflow import frontend
-
-@frontend.register
-class HelloWorldFlow(Flow):
