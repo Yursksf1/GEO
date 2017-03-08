@@ -15,6 +15,7 @@ class testFlow(Flow):
             CreateProcessView,
             #fields=["text"]
             fields=["text", "email"]
+            #fields=["text", "email","date","date2"]
             #fields=["email"]
         ).Permission(
             auto_create=True

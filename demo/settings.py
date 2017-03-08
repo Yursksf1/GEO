@@ -31,19 +31,26 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    # viewflow
+    'viewflow',
+    'viewflow.frontend',
+
+    # material
+    'material',
+    'material.frontend',
+
+    # django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'material',
-    'material.frontend',
-    'viewflow',
-    'viewflow.frontend',
+    
+    # django demos
     'demo.helloworld',
     'demo.amb',
-    'demo.test',
+    'demo.customnode',
 )
 
 MIDDLEWARE_CLASSES = (
